@@ -1,24 +1,55 @@
-    /* Styles elements with the id "uniqueValue" */
     #red {
         color: orangered;
-        text-align: center;
     }
 
-    /* Styles elements with the class "uniqueclassValue" */
     .green {
         color:mediumseagreen;
-        padding: 40px;
-        text-align: center;
     }
 
     .big {
         font-size: 25px;
         line-height: 30px;
-        text-align: center;
     }
 
     .bold {
         font-weight: bold;
     }
 
+    div { 
+        width: 160px;
+        height: 80px;
+    }
+
+    .box-1 {
+        background-color: firebrick;
+    }
+
+    .box-2 {
+        background-color: steelblue;
+    }
+
+    body { 
+        background-color: #333;
+        color: white;
+    }
+
+    #cool-font {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .border {
+        border-color: steelblue;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 3px;
+    }
+
+    img { 
+        background-image: url("photographer.jpg");
+        background-color: #cccccc; 
+        height: 500px; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
 
