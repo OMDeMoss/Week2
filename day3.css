@@ -1,0 +1,7 @@
+    /* Styles elements with the id "uniqueValue" */
+    #red {
+        background-color: lightgrey;
+        color: black;
+        padding: 40px;
+        text-align: center;
+    }
