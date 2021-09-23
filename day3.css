@@ -1,7 +1,24 @@
     /* Styles elements with the id "uniqueValue" */
     #red {
-        background-color: lightgrey;
-        color: black;
+        color: orangered;
+        text-align: center;
+    }
+
+    /* Styles elements with the class "uniqueclassValue" */
+    .green {
+        color:mediumseagreen;
         padding: 40px;
         text-align: center;
     }
+
+    .big {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+
