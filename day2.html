@@ -17,6 +17,10 @@
             padding: 40px;
             text-align: center;
         }
+
+        .text-center {
+         text-align: center;
+        }
     </style>
     <title>Document</title>
 </head>
@@ -45,11 +49,10 @@
     </p>
 
 <!--form starts here-->
-    <form>
+    <form align="center">
         <h1> <strong>Which is your favorite color?</h1></strong>
                 <label for="colorChoices">Red</label>
                     <input type="radio" name="colorChoices" value="radio 1">
-                    <br>
                 <label for="colorChoices">Blue</label>
                     <input type="radio" name="colorChoices" value="radio 2">
                     <br>
@@ -57,7 +60,6 @@
         <h1><strong> What are you favorite foods? </strong></h1>
             <label for="favoriteFood">Pizza</label>
             <input type="checkbox" name="favoriteFood" value="check 1" checked>
-            <br>
             <label for="favoriteFood"> Hot Dogs </label>
             <input type="checkbox" name="favoriteFood" value="check 2">
             <br>
@@ -77,8 +79,11 @@
 <!--form ends here-->
 
 <br>
-        <p> Ask me more questions! </p>
+<div class="text-center">
+        <p align="center"> Ask me more questions! </p>
 		<input type="button" value="Go for it!">
+</div>
+
 <hr>
 
 <div>
