@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Styles elements with the id "uniqueValue" */
+        #uniqueValue {
+            background-color: lightgrey;
+            color: black;
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Styles elements with the class "uniqueclassValue" */
+        .uniqueclassValue {
+            background-color: black;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<!--table starts here-->
+    <table border="1" align="center">
+        <tr>
+            <th> First Name </th>
+            <th> Last Name </th>
+            <th> Age </th>
+        </tr>
+            <td> Olivia </td>
+            <td> DeMoss </td>
+            <td> 27 </td>
+      </table>
+<!--table ends here-->
+
+    <p id="uniqueValue"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in  
+    eveniet aspernatur. Temporibus quas recusandae expedita repellendus inventore consectetur 
+    pariatur dolores provident amet, suscipit sint obcaecati perferendis, quos esse ipsam.
+    </p>
+
+    <p class="uniqueclassValue"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in  
+        eveniet aspernatur. Temporibus quas recusandae expedita repellendus inventore consectetur 
+        pariatur dolores provident amet, suscipit sint obcaecati perferendis, quos esse ipsam.
+    </p>
+
+<!--form starts here-->
+    <form>
+        <h1> <strong>Which is your favorite color?</h1></strong>
+                <label for="colorChoices">Red</label>
+                    <input type="radio" name="colorChoices" value="radio 1">
+                    <br>
+                <label for="colorChoices">Blue</label>
+                    <input type="radio" name="colorChoices" value="radio 2">
+                    <br>
+
+        <h1><strong> What are you favorite foods? </strong></h1>
+            <label for="favoriteFood">Pizza</label>
+            <input type="checkbox" name="favoriteFood" value="check 1" checked>
+            <br>
+            <label for="favoriteFood"> Hot Dogs </label>
+            <input type="checkbox" name="favoriteFood" value="check 2">
+            <br>
+        
+        <p> <strong> If you don't like my survery, please let me know below! </p></strong>
+                <label for="feedBack"></label>
+                    <textarea name="feedBack"  rows="6" cols="40"></textarea>
+                    <br><br>
+
+        <label for="selectOptions"> Did you like my questions? </label>
+            <select name="selectOptions">
+                            <option value="yes" selected> Yes </option>
+                            <option value="no" > No </option>
+                        </optgroup>
+            </select>
+    </form>
+<!--form ends here-->
+
+<br>
+        <p> Ask me more questions! </p>
+		<input type="button" value="Go for it!">
+<hr>
+
+<div>
+    <p> <span style="color: lightgrey;">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus, 
+        vitae quam, quo ipsam illo omnis libero aspernatur, temporibus error porro 
+        voluptates soluta deleniti cumque. Odit expedita necessitatibus error tempora.
+    </p>
+    <br><br><br>
+</div>
+
+<div style="background-color:black;color:white;padding:20px;">
+    <h1>Block Element</h1>
+</div>
+
+<h1> Inline Element <span style="color: black;font-weight:bold;background:lightgray;"> Example </span></h1>
+
+
+
+</body>
+</html>
