@@ -44,9 +44,8 @@
         border-width: 3px;
     }
 
-    img { 
-        background-image: url("bliss-windows-xp-original-640x514.jpeg")
-        height: 500px; 
+    .img { 
+        background-image: url("bliss-windows-xp-original-640x514.jpeg");
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover; 
